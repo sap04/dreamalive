@@ -1,0 +1,146 @@
+/* General styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #F9F9F9;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav ul li a:hover {
+  color: #4CAF50;
+}
+
+header img {
+  height: 50px;
+}
+
+/* Home page specific styles */
+#hero-section {
+  background-image: url('path/to/hero-image.jpg');
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#hero-section h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#hero-section p {
+  font-size: 1.2rem;
+}
+
+/* Donate page specific styles */
+.donate-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.donate-form label, .donate-form input[type="submit"] {
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}
+
+.donate-form input[type="submit"] {
+  padding: 1rem;
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Programs page specific styles */
+.activity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.activity h2 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.activity p {
+  margin-bottom: 1rem;
+}
+
+.activity img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+/* Add activity page specific styles */
+.add-activity-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.add-activity-form label, .add-activity-form input[type="submit"] {
+  font-size: 1.2rem;
+  margin: 0.5rem;
+}
+
+.add-activity-form input[type="submit"] {
+  padding: 1rem;
+  background-color: #4CAF50;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+  background-color: #F9F9F9;
+  border-top: 1px solid #EAEAEA;
+  padding: 1rem;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.8rem;
+  color: #999;
+}
